@@ -13,7 +13,7 @@ mongoose
 
 app.use(express.json());
 const _dirname=path.dirname("");
-const buildpath=path.join(_dirname,"../BILLING_FRONTEND/build");
+const buildpath=path.join(_dirname,"../billing_frontend/build");
 app.use(express.static(buildpath));
 app.use(cors());
 
